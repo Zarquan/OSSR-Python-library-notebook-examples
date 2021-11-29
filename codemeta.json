@@ -1,0 +1,115 @@
+ {
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "eossr",
+  "description": "ESCAPE OSSR library",
+  "license": "https://spdx.org/licenses/MIT",
+  "softwareVersion": "v0.3.3",
+  "codeRepository": "https://gitlab.in2p3.fr/escape2020/wp3/eossr",
+  "developmentStatus": "active",
+  "isAccessibleForFree": true,
+  "isPartOf": [
+    "https://gitlab.in2p3.fr/escape2020",
+    "https://projectescape.eu/"
+  ],
+  "contIntegration": "https://gitlab.in2p3.fr/escape2020/wp3/eossr/-/pipelines",
+  "buildInstructions": "https://gitlab.in2p3.fr/escape2020/wp3/eossr/-/blob/master/README.md",
+  "issueTracker": "https://gitlab.in2p3.fr/escape2020/wp3/eossr/-/issues",
+  "readme": "https://gitlab.in2p3.fr/escape2020/wp3/eossr/-/blob/master/README.md",
+  "programmingLanguage": [
+    {
+      "@type": "ComputerLanguage",
+      "name": "Python",
+      "url": "https://www.python.org/"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "requests",
+      "name": "requests",
+      "softwareVersion": ">=3.6"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "pytest",
+      "name": "pytest",
+      "softwareVersion": ">=5.4.2"
+    }
+  ],
+  "keywords": ["jupyter-notebook"],
+  "runtimePlatform": "",
+  "downloadUrl": "",
+  "installUrl": "",
+  "releaseNotes": "Bug fix in the CI and much lighter docker container",
+  "dateCreated": "2021-08-31",
+  "datePublished": "2021-10-22",
+  "dateModified": "2021-10-22",
+  "operatingSystem":  "",
+  "maintainer": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0003-2224-4594",
+    "givenName": "Enrique",
+    "familyName": "Garcia",
+    "email": "garcia@lapp.in2p3.fr",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Univ. Savoie Mont Blanc, CNRS, LAPP"
+    }
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5686-2078",
+      "givenName": "Thomas",
+      "familyName": "Vuillaume",
+      "email": "vuillaume@lapp.in2p3.fr",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Univ. Savoie Mont Blanc, CNRS, LAPP"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2224-4594",
+      "givenName": "Enrique",
+      "familyName": "Garcia",
+      "email": "garcia@lapp.in2p3.fr",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Univ. Savoie Mont Blanc, CNRS, LAPP"
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5321-8404",
+      "givenName": "Christian",
+      "familyName": "Tacke",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "GSI"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7821-8673",
+      "givenName": "Tamás",
+      "familyName": "Gál",
+      "email": "tamas.gal@fau.de",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "ECAP, FAU (Nuremberg, Germany)"
+      }
+    }
+  ],
+  "funder":[
+    {
+      "@type": "Organization",
+      "name": "European Commission",
+      "@id": "https://doi.org/10.13039/501100000780"
+    }
+  ],
+  "funding": "824064"
+}
