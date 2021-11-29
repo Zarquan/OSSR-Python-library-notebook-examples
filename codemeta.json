@@ -22,7 +22,7 @@
       "url": "https://www.python.org/"
     }
   ],
-  "keywords": ["jupyter-notebook"],
+  "keywords": ["uri://escape.eu/jupyter-notebook"],
   "runtimePlatform": "Jupyter",
   "downloadUrl": "",
   "installUrl": "",
