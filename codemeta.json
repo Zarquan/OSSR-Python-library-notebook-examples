@@ -3,8 +3,8 @@
   "@type": "JupyterNotebook",
   "name": "eossr-examples",
   "description": "ESCAPE OSSR library examples",
-  "license": "https://spdx.org/licenses/MIT",
-  "softwareVersion": "v0.3.3",
+  "license": "https://spdx.org/licenses/GPL-3.0-or-later.html",
+  "softwareVersion": "v1.0.0",
   "codeRepository": "https://github.com/Zarquan/OSSR-library-notebook-examples",
   "developmentStatus": "active",
   "isAccessibleForFree": true,
@@ -22,8 +22,8 @@
       "url": "https://www.python.org/"
     }
   ],
-  "keywords": ["uri://escape.eu/jupyter-notebook"],
-  "runtimePlatform": "Jupyter",
+  "keywords": ["uri://escape.eu/task-type/jupyter-notebook"],
+  "runtimePlatform": "uri://escape.eu/platform/jupyter-hub",
   "downloadUrl": "",
   "installUrl": "",
   "releaseNotes": "Initial commit",
